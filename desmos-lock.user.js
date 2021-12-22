@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Desmos Lock
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
