@@ -7,7 +7,6 @@
 // @match        https://*.desmos.com/calculator*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @downloadURL https://github.com/dragonfly1033/desmoslock/raw/master/desmos-lock.user.js
 // @updateURL   https://github.com/dragonfly1033/desmoslock/raw/master/desmos-lock.user.js
 // ==/UserScript==
@@ -50,7 +49,7 @@ function start(){
 			DLock.getExpression = function(id) {
 				var expressions = Calc.getState().expressions.list;
 				for (var i = 0; i < expressions.length; i++) {
-					if (expressions[i].id === id) return expressions[i]; 
+					if (expressions[i].id === id) return expressions[i];
 				}
 			}
 			DLock.handler = function(e) {
@@ -59,6 +58,7 @@ function start(){
 				}
 			}
 			document.addEventListener('keyup', DLock.handler);
+            console.log("Desmos-Lock Loaded ✔️")
 		} else {
 			window.alert("uh oh, something went wrong")
 			}
