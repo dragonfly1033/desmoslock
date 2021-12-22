@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Desmos Lock
-// @namespace    http://tampermonkey.net/
+// @namespace    dragonfly1033.Desmos
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
