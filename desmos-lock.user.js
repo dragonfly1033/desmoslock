@@ -8,8 +8,8 @@
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        unsafeWindow
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @downloadURL https://github.com/dragonfly1033/desmoslock/desmos-lock.user.js
-// @updateURL   https://github.com/dragonfly1033/desmoslock/desmos-lock.user.js
+// @downloadURL https://github.com/dragonfly1033/desmoslock/raw/master/desmos-lock.user.js
+// @updateURL   https://github.com/dragonfly1033/desmoslock/raw/master/desmos-lock.user.js
 // ==/UserScript==
 
 (function() {
