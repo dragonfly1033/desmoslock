@@ -1,20 +1,22 @@
 // ==UserScript==
-// @name         Desmos Lock
+// @name         Desmos-Lock
 // @namespace    dragonfly1033.Desmos
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  an equation with variables can be moved/made and saved easily by locking variables
+// @author       dragonfly1033
 // @match        https://*.desmos.com/calculator*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        unsafeWindow
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+// @downloadURL https://github.com/dragonfly1033/desmoslock/desmos-lock.user.js
+// @updateURL   https://github.com/dragonfly1033/desmoslock/desmos-lock.user.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
 setTimeout(function(){
-//desmos lock by @JohnDoesStuff
+
 if (window.location.href.includes("desmos.com/calculator")) {
 	if (typeof Calc != "undefined") { //thanks u/SlimRunner
 		var DLock = {};
